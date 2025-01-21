@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="LpHp_MqLSVuPBOI30Wk2">
-    <mxGraphModel dx="794" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,12 @@
         </mxCell>
         <mxCell id="QNZQzY4EYhfV8_li0c6l-1" value="- Best practises:&amp;nbsp;It&#39;s recommended you have a few large virtual networks rather than multiple small virtual networks to prevent management overhead." style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="79.29" y="890" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jQrbSrtsPyOjLQqsw8X1-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/nat-gateway/media/nat-overview/flow-map.png;" vertex="1" parent="1">
+          <mxGeometry x="630" y="690" width="365" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="jQrbSrtsPyOjLQqsw8X1-2" value="&lt;span style=&quot;color: rgb(230, 230, 230); font-family: &amp;quot;Segoe UI&amp;quot;, SegoeUI, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(23, 23, 23);&quot;&gt;Network security perimeter provides a secure perimeter for communication of PaaS services deployed outside the virtual network&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="1120" width="350" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
