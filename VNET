@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="LpHp_MqLSVuPBOI30Wk2">
-    <mxGraphModel dx="1687" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="140" y="271" width="33.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms12wG3pQmfbooAv0WjS-13" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/DNS_Private_Zones.svg;" parent="1" vertex="1">
-          <mxGeometry x="510.00000000000006" y="268" width="30" height="30" as="geometry" />
+          <mxGeometry x="510.00000000000006" y="264" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ms12wG3pQmfbooAv0WjS-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="140" y="300" width="180" height="320" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry x="381" y="730" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QNZQzY4EYhfV8_li0c6l-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;- Best practises:&amp;nbsp;It&#39;s recommended you have a few large virtual networks rather than multiple small virtual networks to prevent management overhead.&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="167.5" y="-10" width="370" height="110" as="geometry" />
+          <mxGeometry x="70" y="10" width="370" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jQrbSrtsPyOjLQqsw8X1-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/nat-gateway/media/nat-overview/flow-map.png;" vertex="1" parent="1">
           <mxGeometry x="680" y="657" width="365" height="344" as="geometry" />
