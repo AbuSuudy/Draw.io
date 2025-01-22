@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="LpHp_MqLSVuPBOI30Wk2">
-    <mxGraphModel dx="1793" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="368.75" y="360" width="33.4" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ms12wG3pQmfbooAv0WjS-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="368.75" y="316" width="180" height="320" as="geometry" />
+          <mxGeometry x="342" y="300" width="180" height="320" as="geometry" />
         </mxCell>
         <mxCell id="ms12wG3pQmfbooAv0WjS-22" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;" parent="1" vertex="1">
           <mxGeometry x="348.75" y="310" width="24.71" height="30" as="geometry" />
@@ -145,13 +145,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M8Riy5Xess1MKu8GjOMa-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/_images/hub-spoke.png;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="500" width="1093" height="682" as="geometry" />
+          <mxGeometry x="1241" y="300" width="1093" height="682" as="geometry" />
         </mxCell>
         <mxCell id="M8Riy5Xess1MKu8GjOMa-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;- Best practises:&amp;nbsp;It&#39;s recommended you have a few large virtual networks rather than multiple small virtual networks to prevent management overhead.&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="700" y="161" width="370" height="110" as="geometry" />
         </mxCell>
         <mxCell id="M8Riy5Xess1MKu8GjOMa-6" value="&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(230, 230, 230), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));&quot; face=&quot;Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;The hub virtual network hosts shared Azure services.&amp;nbsp;The hub virtual network is the central point of connectivity for cross-premises networks.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(230, 230, 230), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));&quot; face=&quot;Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));&quot; face=&quot;Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Spoke virtual networks. Spoke virtual networks isolate and manage workloads separately in each spoke.&amp;nbsp;&amp;nbsp;Spokes can exist in different subscriptions and represent different subscriptions.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1616.5" y="274" width="580" height="198" as="geometry" />
+          <mxGeometry x="1270" y="50" width="580" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Riy5Xess1MKu8GjOMa-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/azure-best-practices/network-hub-spokes-cluster.png;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="17.62" width="384" height="256.38" as="geometry" />
+        </mxCell>
+        <mxCell id="M8Riy5Xess1MKu8GjOMa-10" value="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-inbound-and-outbound-internet-connectivity" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1080" width="820" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
